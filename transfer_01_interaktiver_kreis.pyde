@@ -1,9 +1,9 @@
 def setup():
-    size(600, 600)
+    size(700, 700)
     
 
 def draw():
     helligkeit = mouseY / 2.35
     print(helligkeit)
     background(helligkeit, helligkeit, helligkeit)
-    ellipse(300, 300, mouseX, mouseX)
+    ellipse(350, 350, mouseX, mouseX)
